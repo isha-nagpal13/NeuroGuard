@@ -1,0 +1,57 @@
+{
+  "best_model": "RandomForest",
+  "models": {
+    "RandomForest": {
+      "name": "RandomForest",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "confusion_matrix": {
+        "tn": 1840,
+        "fp": 0,
+        "fn": 0,
+        "tp": 460
+      },
+      "train_time_s": 14.21
+    },
+    "XGBoost": {
+      "name": "XGBoost",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "confusion_matrix": {
+        "tn": 1840,
+        "fp": 0,
+        "fn": 0,
+        "tp": 460
+      },
+      "train_time_s": 2.12
+    },
+    "SVM": {
+      "name": "SVM",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "confusion_matrix": {
+        "tn": 1840,
+        "fp": 0,
+        "fn": 0,
+        "tp": 460
+      },
+      "train_time_s": 2.82
+    }
+  },
+  "dataset": {
+    "train_samples": 9200,
+    "test_samples": 2300,
+    "n_features": 178,
+    "seizure_ratio_train": 0.2,
+    "seizure_ratio_test": 0.2
+  }
+}
