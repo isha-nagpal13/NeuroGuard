@@ -1,4 +1,4 @@
-# NeuroGuard
+# NeuroGuard-BCI
 
 AI-Powered Brain-Computer Interface (BCI) for Real-Time Seizure Prediction and Monitoring.
 
